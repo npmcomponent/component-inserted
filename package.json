@@ -1,26 +1,15 @@
 {
-  "name": "inserted-component",
-  "repo": "component/inserted",
+  "name": "component-inserted",
   "description": "invoke a callback when a DOM element is inserted",
   "version": "0.0.2",
   "keywords": [
     "dom",
-    "event"
+    "event",
+    "insertion"
   ],
   "dependencies": {
-    "within-document": "*",
-    "mutation-observer": "*"
+    "component-within-document": "git://github.com/npmcomponent/component-within-document.git",
+    "component-mutation-observer": "git://github.com/npmcomponent/component-mutation-observer.git"
   },
-  "development": {},
-  "component": {
-    "scripts": {
-      "inserted/index.js": "index.js",
-      "inserted/fallback.js": "fallback.js",
-      "inserted/dom4.js": "dom4.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/inserted.git"
-  }
+  "license": "MIT"
 }
